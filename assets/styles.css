@@ -161,7 +161,6 @@ table {
 #tieAnimation{
     display: none;
     margin: auto;
-    width: 100%;
 }
 
 #winAnimation{
@@ -170,6 +169,8 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 320px !important;
+    height: 145px !important;
 }
 #lossAnimation{
     background: url('assets/images/lossAnimation.gif');
@@ -177,6 +178,8 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 320px !important;
+    height: 149px !important;
 }
 #tieAnimation{
     background: url('assets/images/tieAnimation.gif');
@@ -184,4 +187,6 @@ table {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 320px !important;
+    height: 152px !important;
 }
