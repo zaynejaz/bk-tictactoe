@@ -641,7 +641,7 @@ function endGame(who) {
     }
 
     if (who == player) {
-        document.getElementById("winAnnounce").style.background = "url('/assets/images/winAnimationBG.gif')", document.getElementById("winAnimation").style.display = "block", document.getElementById("lossAnimation").style.display = "none", document.getElementById("tieAnimation").style.display = "none";
+        document.getElementById("winAnnounce").style.background = "url('assets/images/winAnimationBG.gif')", document.getElementById("winAnimation").style.display = "block", document.getElementById("lossAnimation").style.display = "none", document.getElementById("tieAnimation").style.display = "none";
     } else if (who == computer) {
         document.getElementById("winAnnounce").style.background = "red", document.getElementById("lossAnimation").style.display = "block", document.getElementById("winAnimation").style.display = "none", document.getElementById("tieAnimation").style.display = "none";
     } else {
