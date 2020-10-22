@@ -164,8 +164,8 @@ table {
 }
 
 #winAnimation{
-    background: url('assets/images/winAnimation.gif');
-    background-image: url('assets/images/winAnimation.gif');
+    background: url('/assets/images/winAnimation.gif');
+    background-image: url('/assets/images/winAnimation.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,8 +173,8 @@ table {
     height: 145px !important;
 }
 #lossAnimation{
-    background: url('assets/images/lossAnimation.gif');
-    background-image: url('assets/images/lossAnimation.gif');
+    background: url('/assets/images/lossAnimation.gif');
+    background-image: url('/assets/images/lossAnimation.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,8 +182,8 @@ table {
     height: 149px !important;
 }
 #tieAnimation{
-    background: url('assets/images/tieAnimation.gif');
-    background-image: url('assets/images/tieAnimation.gif');
+    background: url('/assets/images/tieAnimation.gif');
+    background-image: url('/assets/images/tieAnimation.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
